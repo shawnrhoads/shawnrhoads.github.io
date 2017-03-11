@@ -35,7 +35,7 @@ ul{
 }
 .banner-top {
   text-align: center;
-  color:#fff;
+  color:#000000;
 }
 .banner-top h1{
   font-size: 8em;
@@ -63,7 +63,7 @@ ul{
 	display:inline-block;
 }
 .top-menu ul li a {
-  color: #fff;
+  color: #000000;
   margin: 0 27px;
   font-size: 1.3em;
   text-decoration:none;
