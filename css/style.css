@@ -41,6 +41,7 @@ ul{
   font-size: 8em;
   font-weight: 700;
   padding-top: 1.5em;
+  text-shadow: 2px 2px 4px #000000;
 }
 .banner-top h2{
   font-size: 3em;
@@ -48,6 +49,7 @@ ul{
   font-family: 'Lora', serif;
   font-style: italic;
   margin-bottom: 6em;
+  text-shadow: 2px 2px 4px #000000;
 }
 .top-menu {
     text-align: center;
@@ -67,6 +69,7 @@ ul{
   margin: 0 27px;
   font-size: 1.3em;
   text-decoration:none;
+  text-shadow: 2px 2px 4px #000000;
 }
 .logo a img {
   margin: 0 auto;
