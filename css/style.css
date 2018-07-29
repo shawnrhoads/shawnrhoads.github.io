@@ -194,7 +194,9 @@ ul{
   font-weight: 200;
   width: 62%;
   margin: 0 auto;
-  padding: 1.5em 0 0em;
+  
+  padding: 10px 0;
+
   line-height: 1.7em;
 }
 /*--- Responsive Tabs ---*/
