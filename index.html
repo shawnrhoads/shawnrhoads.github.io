@@ -4,134 +4,137 @@ Edited from: W3layouts (http://w3layouts.com)
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
 <head>
-<title>Shawn A Rhoads</title>
+<title>Shawn Rhoads | Home</title>
 <link rel="shortcut icon" type="image/png" href="favicon.ico?" />
-<meta name="description" content="Shawn Rhoads is a Ph.D. student at Georgetown University interested in conducting neuroscientific research on human empathy, altruism, and social connection." />
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Shawn Rhoads, USC, Georgetown, Georgetown University, Social Neuroscience, Social Psychology, Social Cognition, Empathy, Environment, Sustainability, Research, University of Southern California, Shawn, Rhoads, New Jersey, Psychology, USC Environmental Student Assembly, Know Tomorrow, USC Green Engagement Fund" />	
+<meta name="keywords" content="Shawn Rhoads, USC, Georgetown, Georgetown University, Social Neuroscience, Cognitive Neuroscience, Computational Neuroscience, Social Psychology, Social Cognition, Empathy, University of Southern California, Shawn, Rhoads, Psychological Science, USC Environmental Student Assembly, Know Tomorrow, USC Green Engagement Fund" />	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<!----fonts----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   	<link rel="stylesheet" href="fonts/css/academicons.min.css">
+<!----fonts----->
 </head>
-
 <body>
-<!--header-->
-<div id="home" class="banner">
-	<div class="top-menu">
-		<span class="menu"> </span> 
-			<nav class="cl-effect-1" id="cl-effect-1">
-				 <ul>
-					<li><a class="scroll" href="#banner-top">HOME</a></li>
-					<li><a class="scroll" href="#about">ABOUT</a></li>
-					<li><a class="scroll" href="#experience">RESEARCH</a></li>
-					<li><a class="scroll" href="#environmental">ENVIRONMENTAL</a></li>
-					<li><a class="scroll" href="#contact">CONTACT</a></li>				 
-				</ul>	
-			</nav>			 
-	</div>	
-			<div id="banner-top" class="banner-top">		  		  
-				<h1>SHAWN</h1>
-				<h2>Welcome to my website</h2>
-				<div class="logo">
-					<a href="https://github.com/shawnrhoads" target="_blank" title="Redirect to Github"><img src="images/github_icon.png" class="img-responsive" alt=""/></a>
-				</div>	
-			</div>
-</div>
-<!--/header-->
-<!--about-->
-<div id="about" class="about">
-	<div class="container">
-		<div class="about-info">
-				<h3>ABOUT</h3>
-				<h4>Who I am</h4>
-				<p>My name is Shawn Rhoads. I am a Ph.D. student at <a href="http://georgetown.edu/" target="_blank">Georgetown University</a> interested in conducting neuroscientific research on human empathy, altruism, and social connection. I graduated from the <a href="http://usc.edu/" target="_blank">University of Southern California</a> with a Bachelor's Degree in both physics and psychology. I have also been involved with advocacy work for environmental sustainability and social justice on both the local and national level.</p>
-		 </div>
-		   <div class="about-grids">
-		   	<div class="col-md-6 about-grid">
-		   		<h4>My story</h4>
-		   		<p>As a physics student at USC, I immediately developed an interest in scientific research as an assistant under Dr. Edward Rhodes using solar imaging data to study <a href="https://en.wikipedia.org/wiki/Helioseismology">helioseismology</a>. I added a second major of psychology and began exploring my interests via neuroimaging methods. I served as a research assistant at the <a href="https://dornsife.usc.edu/bci/" target="_blank">USC Brain and Creativity Institute</a> studying adolescents' social emotions under the guidance of Dr. Mary Helen Immordino-Yang before working at the <a href="http://mindbrain.ucdavis.edu/" target="_blank">UC Davis Center for Mind and Brain</a> as lab manager under Drs. Amanda Guyer and Paul Hastings.</p>
-		   	</div>
-		   	<div class="col-md-6 about-grid">
-		   		<h4>My future</h4>
-				<p>I am a <a href="https://www.nsfgrfp.org/">National Science Foundation research fellow</a> and Ph.D. student in Lifespan Cognitive Neuroscience at Georgetown University. I work with Dr. Abigail Marsh and her <a href="https://aamarsh.wordpress.com/lab/" target="_blank">Laboratory on Social and Affective Neuroscience</a> to unpack how the human brain encodes information about our social world; and how the neural mechanisms that sub-serve social cognitive and affective functioning (e.g., empathy, perspective-taking) interact to promote costly prosocial decision-making and behavior towards close others and distant strangers.</p>
-		   	</div>
-		   	<div class="clearfix"> </div>
-		   </div>
-	</div>
-</div>
-<!--/about-->
-<!--experience-->
-<div id="experience" class="experience">
-	<div class="container">
-		<div class="experience-info">
-				<h3>PUBLICATIONS</h3>
-				<!--<p>View my curricula vitae (CV) <a href = "Rhoads_vita.pdf" target="_blank">HERE</a>.</p> -->
-			   	<div class="clearfix"> </div>
+<div class="header_bg" id="home"><!-- start header -->
+<div class="container">
+	<div class="row header text-center specials">
+		<div class="h_logo">
+			<a href="index.html"><img src="images/logo.png" alt="" class="responsive"/></a>
 		</div>
-		<div class="experience-info-bottom">
-			<!--<h4>Publications</h4> -->
-			<p>Marsh, A. A., <b>Rhoads, S. A.</b>, Ryan, R. M. (2018). A multi-semester classroom demonstration yields evidence in support of the facial feedback effect. <i>Emotion</i>. [<a href = "pubs/emotion_2018.pdf" target="_blank">PDF</a>]</p>
+		<nav class="top-nav">
+			<ul class="top-nav nav_list">
+				<li><a href="research.html">research</a></li>
+				<li class="page-scroll"><a href="#about">about</a></li>
+				<li class="logo page-scroll"><img src="images/logo.png" alt="" class="responsive"/></a></li>
+			    <li class="page-scroll"><a href="https://github.com/shawnrhoads/" target="_blank">code</a></li>
+				<li class="page-scroll"><a href="#publications">publications</a></li>
+			</ul>
+			<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div class="slider_bg"><!-- start slider -->
+
+</div>
+<div class="main_bg"  id="about"><!-- start about us -->
+<div class="container">
+	<div class="row about">
+		<div class="col-md-3 about_img">
+			<img src="images/user.png" id="about_img" alt="" />
+		</div>
+		<div class="col-md-9 about_text">
+			<h3>Shawn Rhoads</h3>
+			<h4>National Science Foundation Graduate Research Fellow</h4>
+			<p>I am a PhD student in the <a href="https://aamarsh.wordpress.com/lab/" target="_blank"><font color=darkblue>Laboratory on Social and Affective Neuroscience</font></a> at <a href="http://georgetown.edu/" target="_blank"><font color=darkblue>Georgetown University</font></a> conducting research on human prosocial behavior and its underlying mechanisms (e.g., empathy, shared affective experiences, interpersonal perception) under the mentorship of Dr. Abigail Marsh. I graduated from the <a href="http://usc.edu/" target="_blank"><font color=darkblue>University of Southern California</font></a> with a Bachelor's Degree in both physics and psychology. Currently, I work on projects pertaining to dyadic social perceptions, hyberbolic social discounting, and real-world extraordinary altruism. I am also an avid social justice, environmental, and open-science advocate. I have been involved with advocacy work for environmental sustainability and social justice on both the local and national level.</p>
+			<div class="soc_icons navbar-right">
+				<ul class="list-unstyled text-center">
+					<li><a href="https://twitter.com/ShawnRhoads51"><i class="fa fa-twitter-square"></i></a></li>
+					<li><a href="https://github.com/shawnrhoads"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://scholar.google.com/citations?user=__YmDVEAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a></li>
+					<li><a href="https://orcid.org/0000-0003-1350-9458"><i class="ai ai-orcid-square"></i></a></li>
+					<li><a href="https://osf.io/9vn7a"><i class="ai ai-osf-square"></i></a></li>
+				</ul>	
 			</div>
-	</div>				
-</div>
-	<div class="clearfix"> 
+		</div>
 	</div>
-<!--experience-->
-<!--environmental-->
-<div id="environmental" class="environmental">
+</div>
+</div>
+<div class="footer_bg" id="publications"><!-- start footer -->
+<div class="container">
+	<div class="row footer">
+		<div class="col-md-8 pubs_left">
+			<h3>Publications</h3>
+			<p class="para">
+				<p>O'Connell, K., Brethel-Haurwitz, K. M., <b style="color:white">Rhoads, S. A.</b>, Cardinale, E. M., Vekaria, K. M., Robertson, E. L., Walitt, B., VanMeter, J. W., & Marsh, A. A. (2019). Increased similarity of neural responses to experienced and empathic distress in costly altruism. <i>Scientific Reports</i>, 9(10774). [<a href = "pubs/oconnell_et_al_2019.pdf" target="_blank">PDF</a>]</p>
+				<p><b style="color:white">Rhoads, S. A.</b> (2019). A brief introduction to Python for psychological science research. Psychological Science Agenda, <i>American Psychological Association</i>. [<a href = "https://www.apa.org/science/about/psa/2019/07/python-research" target="_blank">Web</a>]</p>
+				<p>Marsh, A. A., <b style="color:white">Rhoads, S. A.</b>, Ryan, R. M. (2018). A multi-semester classroom demonstration yields evidence in support of the facial feedback effect. <i>Emotion</i>. [<a href = "pubs/marsh_et_al_2018.pdf" target="_blank">PDF</a>]</p>
+			</p>
+		</div>
+		
+	</div>
+</div>
+</div>
+<div class="footer1_bg"><!-- start footer1 -->
 	<div class="container">
-		<div class="environmental-info">
-				<h3>ENVIRONMENTAL WORK</h3>
-				<p>Environmental sustainability and thrivability should be at the forefront of our world's minds. My advocacy work seeks to produce cultural shifts in the way people act and think about our natural world by fostering collaboration, innovation, and shared learning through the cultivation of ecosystems, biodiversity, and natural resources.</p>
-		 </div>
-		 <div class="environmental-info-bottom">
-				<h4>Roles and Accomplishments</h4>
-				<p>Collaborated with students, faculty, and staff across varying departments to compose a <a href="https://sustainable.usc.edu/files/2015/12/Sustainability2020_Booklet_PDF.pdf" target="_blank">comprehensive sustainability plan</a> for the University of Southern California (USC News: <a href="https://news.usc.edu/86014/students-staff-and-faculty-make-sustainability-a-priority/" target="_blank">9/11/15</a>, <a href="http://news.usc.edu/88899/usc-announces-vision-for-sustainability-2020/" target="_blank">11/23/15</a>; USC Daily Trojan: <a href="http://dailytrojan.com/2015/04/14/usg-prepares-for-meeting-with-nikias-and-quick/" target="_blank">4/14/15</a>).</p>
-
-				<p>Pioneered a synchronous day of action with students on 70 college campuses across the nation to amplify a message to combat climate change (USC News: <a href="https://news.usc.edu/86689/scientists-musicians-and-activists-to-join-forces-for-climate-change-event/" target="_blank">9/29/15</a>; Daily Trojan: <a href="http://dailytrojan.com/2015/09/30/students-should-take-action-on-climate-change/" target="_blank">9/30/15</a>, <a href="http://dailytrojan.com/2015/10/04/know-tomorrow-educates-students-on-climate-change/" target="_blank">10/4/15</a>).</p>
-
-				<p>Served as a leading architect of the bylaws, allocation, and procedure for the distribution of $90,000 towards student-driven sustainability projects at USC; The USC Green Engagement Fund received a total of $169,816.01 grant requests during its first year. (USC Daily Trojan: <a href="http://dailytrojan.com/2015/03/10/usc-green-engagement-fund-launched" target="_blank">3/10/15</a>).</p>
-
-				<p>Established USC Environmental Student Assembly under the Programming Branch of the Undergraduate Student Government as the Founding Executive Director to unite and serve as a resource to all students and organizations that seek to expand environmental action and awareness on campus (USC Daily Trojan: <a href="http://dailytrojan.com/2013/12/04/usg-greenlights-environmental-student-assembly-for-students/" target="_blank">12/4/13</a>, <a href="http://dailytrojan.com/2014/09/09/new-initiatives-aim-for-greener-campus/" target="_blank">9/9/14</a>, <a href="http://dailytrojan.com/2015/04/01/esa-celebrates-first-year-and-earth-month/" target="_blank">4/1/15</a>).</p>
-
-				<p>Represented voice of the environmental student community at USC through active response to current affairs, communication with University administration, and advancement of University initiatives (USC Daily Trojan: <a href="http://dailytrojan.com/2014/10/20/drought-affects-campus-water-usage/" target="_blank">10/20/14</a>, <a href="http://dailytrojan.com/2014/10/30/esa-takes-on-campus-sustainability-efforts/" target="_blank">10/30/14</a>, <a href="http://dailytrojan.com/2015/08/31/admin-students-work-to-cut-water-use/" target="_blank">8/31/15</a>; Neon Tommy: <a href="http://www.neontommy.com/news/2015/04/california-receives-first-mandatory-water-restrictions" target="_blank">4/2/15</a>, <a href="http://www.neontommy.com/news/2015/05/usc-hospitality-lets-take-action-together" target="_blank">5/24/15</a>; USC Annenberg TV News: <a href="http://www.atvn.org/news/2015/04/california-drought" target="_blank">4/2/15</a>; Inside Higher Ed: <a href="https://www.insidehighered.com/news/2015/04/16/drought-action-plans-leading-changes-california-campuses" target="_blank">4/16/15</a>).</p>
-
-				<p>Partnered with local, environmentally-focused community organizations to support their initiatives on and off campus (USC News: <a href="http://schwarzeneggerinstitute.com/institute-in-action/article/usc-environmental-student-assembly-hosts-governator" target="_blank">3/10/15</a>, <a href="http://schwarzeneggerinstitute.com/institute-in-action/article/on-the-road-to-un-climate-conference-in-paris-institute-hosts-austrian-mini" target="_blank">9/28/15</a>; USC Daily Trojan: <a href="http://dailytrojan.com/2014/10/13/former-los-angeles-mayor-speaks-to-price-students/" target="_blank">10/3/14</a>, <a href="http://dailytrojan.com/2015/01/27/ecotalks-holds-first-roundtable/" target="_blank">1/27/15</a>, <a href="http://dailytrojan.com/2015/02/23/former-ca-epa-secretary-speaks-at-ecotalks/" target="_blank">2/23/15</a>, <a href="http://dailytrojan.com/2015/03/09/arnold-schwarzenegger-speaks-on-environment/" target="_blank">3/9/15</a>).</p>
-
-				<p>Transformed an initial budget of $5000 into spending of $50,000 across 85 original large-scale sustainability events and programs over two years for the entire student body (USC News: <a href="https://news.usc.edu/60874/its-easy-being-green-for-earth-month/" target="_blank">4/3/14</a>; Daily Trojan: <a href="http://dailytrojan.com/2014/04/22/actor-leads-earth-day-discussion/" target="_blank">4/22/14</a>, <a href="http://dailytrojan.com/2014/10/16/homecoming-carnival-and-rally-held-on-campus/" target="_blank">10/16/14</a>, <a href="http://dailytrojan.com/2014/10/16/esa-to-host-zero-waste-tailgate-saturday/" target="_blank">10/16/14</a>, <a href="http://dailytrojan.com/2014/11/23/drive-for-water-conservation-ends-rivalry-week/" target="_blank">11/23/14</a>, <a href="http://dailytrojan.com/2015/04/05/greenfest-educates-and-entertains-attendees/" target="_blank">4/5/15</a>, <a href="http://dailytrojan.com/2015/11/05/homecoming-15-carnival-held-in-mccarthy-quad/" target="_blank">11/5/15</a>).</p>
-		 </div>						
+		<div class="row  footer">
+			<div class="copy text-center">
+				<p class="link"><span>&#169; 2019<br>All rights reserved | Shawn Rhoads<br>Edited from template by W3layouts</span></p>
+				<a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
+		<!---- start-smoth-scrolling---->		
 	</div>
 </div>
-<!--/environmental-->
-<!--contact-->
-<div id="contact" class="contact">
-	<div class="container">
-		<div class="contact-info">
-				<h3>CONTACT</h3>
-				<p>Questions? Concerns? Feedback? Seeking collaborations?</p>
-		 </div>
-		 <div class="contact-details">
-		 	<!-- <h4>Contact details</h4> -->
-			<a class="inactiveLink">sr1209(at)georgetown(dot)edu</a>
-		 	<br><a href="https://twitter.com/ShawnRhoads51" class="twitter-follow-button" data-show-count="false">Follow @ShawnRhoads51</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<br><a href="https://www.linkedin.com/pub/shawn-rhoads/6a/937/849" target="_blank">
-       		<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Shawn Rhoads's profile on LinkedIn">
-            </a>
-		 </div>
-	</div>
-</div>
-<!--/contact-->
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<a href="#"><img src="images/logo.png" alt=""/></a>
-			<p>Copyrights &copy; 2017<br> Shawn Rhoads<br> All rights reserved<br>Edited from template by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
-	</div>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</div>
-<!--/footer-->
 </body>
 </html>
