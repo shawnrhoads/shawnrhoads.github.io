@@ -803,8 +803,8 @@ h2.style{
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('../images/nav-icon.png') no-repeat;
-		width: 30px;
+/*		background: url('../images/nav-icon.png') no-repeat;
+*/		width: 30px;
 		height: 30px;
 		display: inline-block;
 		position: absolute;
