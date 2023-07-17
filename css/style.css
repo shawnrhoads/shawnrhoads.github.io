@@ -244,46 +244,54 @@ a:focus {
 /*******************************/
 /* start soc_icons */
 .soc_icons ul{
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 .soc_icons ul li{
-	display:inline-block;
-	margin-left: 0px;
+    display:inline-block;
+    margin-left: 0px;
 }
 .soc_icons ul li a{
-	color:#ffffff;
-	font-size: 24px;
-	display: block;
+    color:#ffffff;
+    font-size: 24px;
+    display: block;
 }
 .soc_icons ul li a i{
-	line-height: 52px;
-	width: 52px;
-	height: 52px;	
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    line-height: 52px;
+    width: 52px;
+    height: 52px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .soc_icons ul li a i.fa-facebook {
-	background: #3660A0;
+    background: #3660A0;
 }
 .soc_icons ul li a i.fa-twitter {
-	background: #2CAAE1;
+    background: #2CAAE1;
 }
 .soc_icons ul li a i.fa-google-plus {
-	background: #DD5644;
+    background: #DD5644;
 }
 .soc_icons ul li a i.fa-pinterest {
-	background: #CC2B27;
+    background: #CC2B27;
 }
 .soc_icons ul li a i.fa-linkedin {
-	background: #0A6C9B;
+    background: #0A6C9B;
 }
 .soc_icons ul li a i.fa-dribbble {
-	background: #EF558F;
+    background: #EF558F;
 }
 .soc_icons ul li a i:hover{
-	background: #323232;
+    background: #323232;
+}
+
+/* Split the line into two lines for mobile devices */
+@media (max-width: 880px) {
+    .soc_icons ul li {
+        display:inline-block;
+        margin-left: 24px;
+    }
 }
 
 .hero {
