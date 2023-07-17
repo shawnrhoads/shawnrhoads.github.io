@@ -17,8 +17,9 @@ h6 {
 }
 
 a {
-    color: #313131;
+    color: #414141;
     transition: .3s;
+    font-weight: bold;
 }
 
 a:hover,
@@ -27,6 +28,7 @@ a:focus {
     color: #EF233C;
     outline: none;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .btn:focus,
