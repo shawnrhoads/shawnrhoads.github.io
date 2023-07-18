@@ -928,7 +928,7 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 300px;
+    height: calc(100% - 30px);
     width: calc(100% - 30px);
     margin: 5px 5px 30px 30px;
     /* display: flex; */
@@ -937,6 +937,16 @@ a:focus {
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
     padding: 12px;
+}
+
+/* Adjust font size for different screen sizes */
+@media only screen and (max-width: 767px) {
+    .portfolio .portfolio-text {
+      font-size: 11px;
+      margin: 0 auto 30px auto;
+      justify-content: center;
+      align-items: center;
+    }
 }
 
 .portfolio .portfolio-text h3 {
