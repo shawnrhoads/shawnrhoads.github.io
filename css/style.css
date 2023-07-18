@@ -943,7 +943,7 @@ a:focus {
 /* Adjust font size for different screen sizes */
 @media only screen and (max-width: 767px) {
     .portfolio .portfolio-text {
-      font-size: 11px;
+      font-size: 12px;
       margin: 0 auto 30px auto;
       justify-content: center;
       align-items: center;
