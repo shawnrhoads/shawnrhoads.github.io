@@ -875,6 +875,17 @@ a:focus {
     text-align: center;
 }
 
+.portfolio a {
+    font-weight: 500;
+    color: black;
+}
+
+.portfolio a:hover {
+    font-weight: 500;
+    color: #EF233C;
+}
+
+
 .portfolio #portfolio-filter li {
     cursor: pointer;
     display: inline-block;
@@ -941,12 +952,27 @@ a:focus {
 }
 
 /* Adjust font size for different screen sizes */
+@media only screen and (max-width: 991px) {
+    .portfolio .portfolio-text {
+      font-size: 13px;
+      margin: 0 auto 30px auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .portfolio #portfolio-filter li {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .portfolio .portfolio-text {
       font-size: 12px;
       margin: 0 auto 30px auto;
       justify-content: center;
       align-items: center;
+    }
+    .portfolio #portfolio-filter li {
+        font-size: 12px;
     }
 }
 
