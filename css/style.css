@@ -948,6 +948,7 @@ a:focus {
     align-items: center;
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
+    font-size: 13px;
     padding: 12px;
 }
 
