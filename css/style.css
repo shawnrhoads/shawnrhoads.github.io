@@ -289,7 +289,7 @@ a:focus {
 }
 
 /* Split the line into two lines for mobile devices */
-@media (max-width: 880px) {
+@media (max-width: 1060px) {
     .soc_icons ul li {
         display:inline-block;
         margin-left: 24px;
@@ -350,9 +350,9 @@ a:focus {
 .hero .hero-text h2 {
     display: inline-block;
     margin: 0;
-    height: 35px;
+    height: 25px;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -361,7 +361,7 @@ a:focus {
 }
 
 .hero .hero-text .typed-cursor {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     color: #ffffff;
 }
@@ -384,7 +384,7 @@ a:focus {
     margin-right: 10px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1060px) {
     .hero {
         padding-top: 60px;
     }
@@ -402,8 +402,8 @@ a:focus {
     }
     
     .hero .hero-text h2 {
-        font-size: 25px;
-        height: 25px;
+        font-size: 24px;
+        height: 24px;
     }
     
     .hero .hero-btn .btn {
